@@ -1,0 +1,22 @@
+.help-search {
+	margin-bottom: 16px;
+}
+
+.help-search .no-results {
+	margin-left: 35px;
+	@include breakpoint( "<660px" ) {
+		margin-left: 25px;
+	}
+}
+
+.help-results__placeholder {
+	.section-header__label,
+	.help-result__icon,
+	.help-result__title,
+	.help-result__description {
+		@include placeholder();
+	}
+	.help-results__footer {
+		display: none;
+	}
+}

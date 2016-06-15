@@ -1,0 +1,10 @@
+.editor-delete-post.button {
+	&:hover {
+		color: $orange-fire;
+	}
+
+	&.is-trashing {
+		color: $orange-fire;
+		animation: loading-dot-pulse 0.8s ease-in-out infinite;
+	}
+}
